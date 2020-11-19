@@ -1,0 +1,41 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0.5rem;
+}
+@media (min-width: 800px) {
+  .gallery-img1 {
+  }
+  .gallery-img2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  .gallery-img3 {
+  }
+}
