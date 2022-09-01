@@ -16,6 +16,15 @@ body {
   min-height: 100vh;
 }
 
+.portfolio-button {
+  display: grid;
+  color: aqua;
+  grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+  grid-gap: 00.5rem;
+  grid-auto-rows: 300px;
+  height: 50%;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -31,11 +40,15 @@ img {
 }
 @media (min-width: 800px) {
   .gallery-img1 {
+    grid-column-start: 3;
+    grid-column-end: 5;
   }
   .gallery-img2 {
     grid-column-start: 3;
     grid-column-end: 5;
   }
   .gallery-img3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
   }
 }

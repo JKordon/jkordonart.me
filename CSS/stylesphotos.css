@@ -1,0 +1,16 @@
+.photogallery-page{
+    padding: 0 1rem 10rem 1rem;
+}
+
+.photo-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 0.5rem;
+    grid-auto-rows: 300px;
+}
+
+.photogallery-item{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
