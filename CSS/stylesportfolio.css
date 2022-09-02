@@ -41,7 +41,7 @@ body {
   border: none;
   outline: none;
   overflow: hidden;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   cursor: pointer;
 }
@@ -90,7 +90,7 @@ body {
 }
 
 .button__text1{
-  transform: translateX(-40%) translateY(-40%);
+  transform: translateX(-36%) translateY(-40%);
 
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .button__text2{
-  transform: translateX(-35%) translateY(-40%);
+  transform: translateX(-30%) translateY(-40%);
 
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 .button__text3{
-  transform: translateX(-40%) translateY(-40%);
+  transform: translateX(-35%) translateY(-40%);
 
 }
 
