@@ -31,8 +31,7 @@ body {
 }
 
 .portfolio-buttonlink {
-  color: aqua;
-  background-color: blue;
+  color:red;
   box-sizing: border-box;
   display: inline-block;
   justify-content: center;
@@ -56,7 +55,6 @@ body {
   opacity: 0.6;
 }
 
-
 .button__text,
 .button__img{
   display: inline-flex;
@@ -70,15 +68,16 @@ body {
 
 .button__text{
   position: relative;
-  text-align: center;
   font-size: 100px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  z-index: 9;
 }
 
+
+
 .button__img{
-  background-size: cover;
   height: 300px;
   width: 1500px;
   object-fit: fill;
@@ -90,9 +89,19 @@ body {
   transform: translateX(-16%) translateY(-35%) scale(85%);
 }
 
+.button__text1{
+  transform: translateX(-40%) translateY(-40%);
+
+}
+
 .button-img2{
   align-items: center;
   transform: translateX(-20%) translateY(-10%);
+}
+
+.button__text2{
+  transform: translateX(-35%) translateY(-40%);
+
 }
 
 .button-img3{
@@ -101,9 +110,19 @@ body {
 
 }
 
+.button__text3{
+  transform: translateX(-40%) translateY(-40%);
+
+}
+
 .button-img4{
   align-items: center;
   transform: translateX(-20%) translateY(-10%) scale(95%);
+}
+
+.button__text4{
+  transform: translateX(-50%) translateY(-40%);
+
 }
 
 img {
