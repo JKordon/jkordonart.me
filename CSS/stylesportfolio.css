@@ -75,8 +75,6 @@ body {
   z-index: 9;
 }
 
-
-
 .button__img{
   height: 300px;
   width: 1500px;
@@ -138,10 +136,57 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 0.5rem;
 }
-@media (min-width: 800px) {
+@media (max-width: 800px) {
+
   .portfolio-links{
     width: 300px;
   }
+
+  .portfolio-buttonlink {
+    color:red;
+    box-sizing: border-box;
+    display: inline-block;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    padding: 60px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .button__text{
+    position: relative;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+  }
+  
+  .button-img1{
+    align-items: center;
+    transform: translateX(-38%) translateY(-35%) scale(85%);
+  }
+  
+  .button__text1{
+    transform: translateX(-72%) translateY(-40%);
+  
+  }
+  
+  .button-img2{
+    align-items: center;
+    transform: translateX(-40%) translateY(-10%);
+  }
+  
+  .button__text2{
+    transform: translateX(-60%) translateY(-40%);
+  
+  }
+  
   .gallery-img1 {
     grid-column-start: 3;
     grid-column-end: 5;

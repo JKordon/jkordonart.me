@@ -1,0 +1,21 @@
+
+                    <div>
+                        <button class="portfolio-buttonlink onclick="window.location.href = 'Digital.html';">
+                            <span class="button__text button__text3">
+                                DIGITAL WORK
+                            </span>
+                            <span class="button__img">                        
+                                <img src="/img/20200916_Kordon_Jackson_AtmosphericPerspective.jpg" alt="" class="button-img3">
+                            </span>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="portfolio-buttonlink" onclick="window.location.href = 'SprayPaint.html';">
+                            <span class="button__text button__text4">
+                                SPRAY PAINT WORK
+                            </span>
+                            <span class="button__img">                        
+                                <img src="/img/JKordon_Independent1.jpg" alt="" class="button-img4">
+                            </span>
+                        </button>
+                    </div>
